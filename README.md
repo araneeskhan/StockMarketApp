@@ -16,7 +16,6 @@ Setup Instructions:
 
 2. Navigate into the project directory:
     cd StockMarketApp
-    
 3. Install Dependencies:
     npm install
 
