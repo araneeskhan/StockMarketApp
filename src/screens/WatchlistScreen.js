@@ -57,8 +57,6 @@ const WatchlistScreen = () => {
 
   const handleRefresh = useCallback(async () => {
     setRefreshing(true);
-    // Implement your refresh logic here, e.g., refetch the watchlist
-    // await refetchWatchlist();
     setRefreshing(false);
   }, []);
 

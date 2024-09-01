@@ -53,7 +53,7 @@ export const getNewsHeadlines = async (symbol) => {
       category: symbol,
       region: 'US'
     });
-    // Check if response.data.items exists and is an array before calling slice
+    
     if (Array.isArray(response.data?.items)) {
       return response.data.items.slice(0, 3);
     } else {
